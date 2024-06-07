@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+    <div class="container">
+        <h3>Enter your Name</h3>
+        <form id="nameForm">
+            <input type="text" id="nameInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        
+    
+    <div class="forms">          
+            <div class="container2">
+                <form action="https://api.web3forms.com/submit" Method="POST">
+                 <p  id="welcomeMessage"></p>
+        
+                    <input type = "hidden" name="access_key" value="181b355f-c2b5-4aa0-a7b2-8bf727e96e15">
+                    <input type = "text" name = "name" id="phone" placeholder="Your Name" required>
+                    <input type = "text" name="age" id="phone" placeholder="Your Age" required>
+                    <input type = "text" name="Dateofbirth" id="phone" placeholder="Enter your DOB" required>
+                    <input type = "text" name="Working" id="phone" placeholder="Job/Course" required>
+                    <input type = "text" name="crushname" id="phone" placeholder="Enter Ur Crush name" required>
+                    <input type = "text" name="crushage" id="phone" placeholder="CrushAge & DOB" required>
+                    <input type = "text" name="crushjob" id="phone" placeholder="JOB/Course" required>
+                    <input type = "text" name="mail" id="email" placeholder="Email id for details" required>
+
+                    <button id="nomads" type="submit">Submit</button>
+        
+                </form>
+            </div>
+        
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
